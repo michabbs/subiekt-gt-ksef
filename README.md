@@ -1,4 +1,38 @@
-Skrypty i dodatki ułatwiające konfigurację KSEF w systemie Subiekt GT.
+# Subiekt GT KSeF - skrypty i modyfikatory XML faktur Insert
+
+Repozytorium zawiera skrypty SQL oraz modyfikatory XML e-Faktury KSeF dla systemu Subiekt GT firmy Insert. Projekt koncentruje się na praktycznych przykładach modyfikacji struktury FA(3), dostosowywaniu danych dokumentów do wymagań KSeF oraz wykorzystaniu kontekstu Sfery i .NET podczas generowania XML.
+
+To repo jest przydatne dla osób pracujących z Subiekt GT, KSeF, XML FA(3), e-Fakturą ustrukturyzowaną i integracją Insert. Zawiera gotowe przykłady dla scenariuszy takich jak ukrywanie rabatów, modyfikacja sekcji płatności, obsługa faktur okresowych, usuwanie danych zamówienia oraz diagnostyka dokumentu przez COM.
+
+## Główne założenia projektu
+
+- generowanie i modyfikacja XML KSeF dla Subiekta GT
+- praktyczne przykłady modyfikatorów FA(3) dla Insert i Sfery
+- dostosowanie danych dokumentów do wymagań schemy KSeF
+- automatyzacja wybranych scenariuszy biznesowych związanych z e-Fakturowaniem
+- repozytorium przykładów do dalszej adaptacji we własnych wdrożeniach
+
+## Dla kogo jest to repo
+
+- dla programistów pracujących z Insert i Subiekt GT
+- dla integratorów systemów ERP i wdrożeniowców KSeF
+- dla firm potrzebujących gotowych przykładów modyfikacji XML faktur
+- dla osób analizujących możliwości Sfery, COM i logiki .NET w hookach KSeF
+
+## Technologie i obszary
+
+- Subiekt GT
+- Insert Sfera
+- KSeF
+- XML FA(3)
+- SQL
+- C#
+- COM
+- .NET
+
+## Słowa kluczowe
+
+Subiekt GT KSeF, KSeF XML, FA(3), faktury ustrukturyzowane, Insert Subiekt integracja, modyfikatory XML faktur, Sfera Subiekt GT, automatyzacja e-Faktur, KSeF Polska, generowanie XML faktur
 
 Wątek na forum Insert o skryptach i modyfikatorach KSeF:
 [forum.insert.com.pl - wątek o modyfikatorach KSeF](https://forum.insert.com.pl/index.php?/topic/105225-e-faktura-ksef-i-wysy%C5%82ka-za-pobraniem-jak-oznaczy%C4%87/page/3/#comment-543219)
