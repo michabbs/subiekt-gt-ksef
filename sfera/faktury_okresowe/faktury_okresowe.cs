@@ -1,7 +1,7 @@
 /*
 	Obsługa faktur za usługi ciągłe - np. czynsz, abonamnet. (Taka faktura powinna zawierać informację o okresie od... do...)
 	Dodać do faktury pole własne typu data o nazwie "Początek okresu faktury". (Wymaga któegoś Plusa!)
-	Parametry -> Pola własne) -> Obiekt: Faktura VAT sprzedaży -> Dodaj pole rozrzeżone
+	Parametry -> Pola własne -> Obiekt: Faktura VAT sprzedaży -> Dodaj pole rozszerzone
 	Początek okresu wpisywać w w/w polu własnym.
 	Koniec okresu wpisywać w polu "Data zakończenia dostawy".
 */
