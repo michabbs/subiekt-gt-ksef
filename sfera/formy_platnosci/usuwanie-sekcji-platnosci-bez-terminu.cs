@@ -5,6 +5,7 @@
 	Prostszy wariant usuwania sekcji Platnosc.
 	Pozostawia sekcję tylko wtedy, gdy w XML istnieje TerminPlatnosci.
 	Przydaje się jako lekki modyfikator, gdy nie jest potrzebna bardziej rozbudowana logika.
+	UWAGA: Usuwa także numer rachunku bankowego!
 */
 using System;
 
