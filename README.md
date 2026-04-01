@@ -23,6 +23,7 @@ Skrypty SQL do definicji modyfikacji własnych w KSeF po stronie Subiekta GT.
 Modyfikacje w C# wymagające licencji Sfera na stanowiskach wystawiających faktury.
 
 - `sfera/README.md` - krótka instrukcja instalacji modyfikacji Sfera: `Parametry -> KSeF -> Dane e-Faktur -> Definicje modyfikacji własnych`.
+- `sfera/formy_platnosci/usuwanie-sekcji-platnosci-bez-terminu.cs` - prosty modyfikator z forum Insert autorstwa Krzysztofa Wielgosza; usuwa całą sekcję `Platnosc`, jeśli w XML nie ma `TerminPlatnosci`.
 - `sfera/formy_platnosci/usuwanie-zaplat-czastkowych.cs` - usuwa z XML e-Faktury informacje o zapłatach częściowych i czyści sekcję płatności dla płatności natychmiastowych; zostawia dane rachunku oraz termin dla realnego kredytu kupieckiego z terminem > 0 dni.
 - `sfera/faktury_okresowe/faktury_okresowe.cs` - obsługuje faktury za usługi ciągłe; zamienia standardowe `P_6` na sekcję `OkresFa` na podstawie pola własnego `Początek okresu faktury` i daty zakończenia dostawy.
 
@@ -32,5 +33,6 @@ Modyfikacje w C# wymagające licencji Sfera na stanowiskach wystawiających fakt
 - Indeks tylko dla towarów: `sql/Indeks/symbol_tylko_dla_towarow.sql`
 - Opis pozycji w XML KSeF: `sql/DodatkowyOpis-dla-pozycji/opis_pozycji.sql`
 - Dodatkowy opis całego dokumentu: `sql/DodatkowyOpis-dla-dokumentu/dodatkowy_opis.sql`
+- Proste usunięcie całej sekcji płatności bez terminu: `sfera/formy_platnosci/usuwanie-sekcji-platnosci-bez-terminu.cs`
 - Czyszczenie informacji o płatnościach częściowych: `sfera/formy_platnosci/usuwanie-zaplat-czastkowych.cs`
 - Obsługa faktur okresowych: `sfera/faktury_okresowe/faktury_okresowe.cs`
