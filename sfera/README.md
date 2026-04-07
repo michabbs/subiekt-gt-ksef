@@ -1,3 +1,5 @@
+## Skrypty sferyczne do modyfikacji e-Faktur
+
 Zamieszczone tu modyfikacjie wymagają licencji na Sferę dla każdego stanowiska, na którym wystawiane są faktury.
 
 Instlacja modyfikacji:
@@ -16,3 +18,7 @@ Dostępne przykłady:
 - [rabaty/ukrycie-rabatu-v3.cs](rabaty/ukrycie-rabatu-v3.cs) - ukrycie rabatu dla zwykłych faktur.
 - [rabaty/ukrycie-rabatu-korekty-v3.cs](rabaty/ukrycie-rabatu-korekty-v3.cs) - ukrycie rabatu dla korekt.
 - [gtin/usuwanie-gtin.cs](gtin/usuwanie-gtin.cs) - usuwa kod GTIN z e-Faktury
+
+## Informacje techniczne
+
+Dla chcących samodzielnie modyfikować skrypty - listę dostępnych metod zawiera [ten post](https://forum.insert.com.pl/index.php?/topic/108382-modyfikacje-w%C5%82asne-ksef-odczyt-warto%C5%9Bci-z-xml-i-lista-dost%C4%99pnych-metod-obiektu-xml/&do=findComment&comment=543298) na forum.
