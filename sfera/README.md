@@ -15,3 +15,4 @@ Dostępne przykłady:
 - [zamowienia/usuwanie-daty-i-numeru-zamowienia.cs](zamowienia/usuwanie-daty-i-numeru-zamowienia.cs) - usuwa datę i numer zamówienia z sekcji WarunkiTransakcji/Zamowienia.
 - [rabaty/ukrycie-rabatu-v3.cs](rabaty/ukrycie-rabatu-v3.cs) - ukrycie rabatu dla zwykłych faktur.
 - [rabaty/ukrycie-rabatu-korekty-v3.cs](rabaty/ukrycie-rabatu-korekty-v3.cs) - ukrycie rabatu dla korekt.
+- [gtin/usuwanie-gtin.cs](gtin/usuwanie-gtin.cs) - usuwa kod GTIN z e-Faktury

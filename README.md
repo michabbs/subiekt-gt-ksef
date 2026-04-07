@@ -66,6 +66,7 @@ Modyfikacje w C# wymagające licencji Sfera na stanowiskach wystawiających fakt
 - [sfera/zamowienia/usuwanie-daty-i-numeru-zamowienia.cs](sfera/zamowienia/usuwanie-daty-i-numeru-zamowienia.cs) - usuwa z FA(3) datę zamówienia i numer zamówienia z sekcji `WarunkiTransakcji/Zamowienia`.
 - [sfera/rabaty/ukrycie-rabatu-v3.cs](sfera/rabaty/ukrycie-rabatu-v3.cs) - ukrywa rabat w zwykłych fakturach, podstawiając do XML wartości po rabacie.
 - [sfera/rabaty/ukrycie-rabatu-korekty-v3.cs](sfera/rabaty/ukrycie-rabatu-korekty-v3.cs) - ukrywa rabat w korektach, obsługując warianty przed/po oraz wiersze zamówienia.
+- [sfera/gtin/usuwanie-gtin.cs](sfera/gtin/usuwanie-gtin.cs) - usuwa kod GTIN z e-Faktury
 
 ## Szybki wybór
 
@@ -82,3 +83,4 @@ Modyfikacje w C# wymagające licencji Sfera na stanowiskach wystawiających fakt
 - Usuwanie daty i numeru zamówienia: [sfera/zamowienia/usuwanie-daty-i-numeru-zamowienia.cs](sfera/zamowienia/usuwanie-daty-i-numeru-zamowienia.cs)
 - Ukrycie rabatu w zwykłych fakturach: [sfera/rabaty/ukrycie-rabatu-v3.cs](sfera/rabaty/ukrycie-rabatu-v3.cs)
 - Ukrycie rabatu w korektach: [sfera/rabaty/ukrycie-rabatu-korekty-v3.cs](sfera/rabaty/ukrycie-rabatu-korekty-v3.cs)
+- Usunięcie kodu GTIN: [sfera/gtin/usuwanie-gtin.cs](sfera/gtin/usuwanie-gtin.cs)
