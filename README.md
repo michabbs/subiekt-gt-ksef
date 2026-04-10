@@ -51,6 +51,7 @@ Skrypty SQL do definicji modyfikacji własnych w KSeF po stronie Subiekta GT.
 - [sql/Indeks/symbol_tylko_dla_towarow.sql](sql/Indeks/symbol_tylko_dla_towarow.sql) - uzupełnia pole indeks tylko dla towarów i kompletów, pozostawia je puste dla usług.
 - [sql/DodatkowyOpis-dla-pozycji/opis_pozycji.sql](sql/DodatkowyOpis-dla-pozycji/opis_pozycji.sql) - przenosi opis pozycji z dokumentu Subiekta do pola `OpisPozycji` w e-Fakturze.
 - [sql/DodatkowyOpis-dla-dokumentu/dodatkowy_opis.sql](sql/DodatkowyOpis-dla-dokumentu/dodatkowy_opis.sql) - dodaje stały, dodatkowy opis do całej e-Faktury; można go rozszerzać o kolejne linie `UNION ALL`.
+- [sql/DodatkowyOpis-dla-dokumentu/uwagi.sql](sql/DodatkowyOpis-dla-dokumentu/uwagi.sql) - przenosi pole `Uwagi` z dokumentu do dodatkowego opisu e-Faktury.
 
 ### Katalog `sfera`
 
