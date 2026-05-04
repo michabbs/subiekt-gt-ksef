@@ -64,9 +64,6 @@ Modyfikacje w C# wymagające licencji Sfera na stanowiskach wystawiających fakt
 - [sfera/powiadomienia_mailowe/wysylanie-maila-przy-generowaniu-xml.cs](sfera/powiadomienia_mailowe/wysylanie-maila-przy-generowaniu-xml.cs) - wysyła prosty mail w trakcie generowania XML; przykład techniczny pokazujący, że w hooku działa zwykły kod .NET.
 - [sfera/powiadomienia_mailowe/generowanie-pdf-i-wysylka-mail.cs](sfera/powiadomienia_mailowe/generowanie-pdf-i-wysylka-mail.cs) - generuje PDF dokumentu i wysyła go mailem jeszcze przed realną wysyłką do KSeF.
 - [sfera/diagnostyka/dostep-do-com-dokumentu-podczas-generowania-xml.cs](sfera/diagnostyka/dostep-do-com-dokumentu-podczas-generowania-xml.cs) - pokazuje, że modyfikator ma dostęp nie tylko do XML, ale też do COM dokumentu i pozycji Sfery.
-- [sfera/zamowienia/usuwanie-daty-i-numeru-zamowienia.cs](sfera/zamowienia/usuwanie-daty-i-numeru-zamowienia.cs) - usuwa z FA(3) datę zamówienia i numer zamówienia z sekcji `WarunkiTransakcji/Zamowienia`.
-- [sfera/rabaty/ukrycie-rabatu-v3.cs](sfera/rabaty/ukrycie-rabatu-v3.cs) - ukrywa rabat w zwykłych fakturach, podstawiając do XML wartości po rabacie.
-- [sfera/rabaty/ukrycie-rabatu-korekty-v3.cs](sfera/rabaty/ukrycie-rabatu-korekty-v3.cs) - ukrywa rabat w korektach, obsługując warianty przed/po oraz wiersze zamówienia.
 - [sfera/gtin/usuwanie-gtin.cs](sfera/gtin/usuwanie-gtin.cs) - usuwa kod GTIN z e-Faktury
 
 ## Szybki wybór
