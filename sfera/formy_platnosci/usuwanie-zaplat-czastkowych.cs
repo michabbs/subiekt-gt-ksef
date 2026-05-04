@@ -52,6 +52,8 @@ try {
 		// usuwamy formę i termin tylko wtedy, gdy nie ma realnego terminu > 0 dni
 		if (!maOdroczonyTermin) {
 			xml.UsunElement("tns:Faktura/tns:Fa/tns:Platnosc/tns:FormaPlatnosci");
+			xml.UsunElement("tns:Faktura/tns:Fa/tns:Platnosc/tns:PlatnoscInna");
+			xml.UsunElement("tns:Faktura/tns:Fa/tns:Platnosc/tns:OpisPlatnosci");
 			xml.UsunElement("tns:Faktura/tns:Fa/tns:Platnosc/tns:TerminPlatnosci");
 		}
 
