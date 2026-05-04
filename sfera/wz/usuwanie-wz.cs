@@ -1,4 +1,9 @@
 /*
+	UWAGA:
+	Ten skrypt stał się zbędny bo wprowadzeniu wersji Subiekta 1.88.
+	Stosowna opcja konfiguracyjna jest dostępna w programie w standardzie.
+*/
+/*
 	Usuwa z XML listę powiązanych dokumentów WZ.
 */
 dynamic xml = Xml;
