@@ -16,6 +16,7 @@ Dostępne przykłady:
 - [diagnostyka/dostep-do-com-dokumentu-podczas-generowania-xml.cs](diagnostyka/dostep-do-com-dokumentu-podczas-generowania-xml.cs) - pokazuje dostęp do obiektu COM dokumentu i pozycji.
 - [gtin/usuwanie-gtin.cs](gtin/usuwanie-gtin.cs) - usuwa kod GTIN z e-Faktury
 - [stopka/dodaj-stopke.cs](stopka/dodaj-stopke.cs) - dodaje do e-Faktury stopkę o stałej treści
+- [podmiot3/podmiot3.cs](podmiot3/podmiot3.cs) - pozwala dodać dodatkowe podmioty w polach **Podmiot3** lub **PodmiotUpowazniony** e-faktury
 
 ## Informacje techniczne
 
