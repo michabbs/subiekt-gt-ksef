@@ -65,6 +65,7 @@ Modyfikacje w C# wymagające licencji Sfera na stanowiskach wystawiających fakt
 - [sfera/powiadomienia_mailowe/generowanie-pdf-i-wysylka-mail.cs](sfera/powiadomienia_mailowe/generowanie-pdf-i-wysylka-mail.cs) - generuje PDF dokumentu i wysyła go mailem jeszcze przed realną wysyłką do KSeF.
 - [sfera/diagnostyka/dostep-do-com-dokumentu-podczas-generowania-xml.cs](sfera/diagnostyka/dostep-do-com-dokumentu-podczas-generowania-xml.cs) - pokazuje, że modyfikator ma dostęp nie tylko do XML, ale też do COM dokumentu i pozycji Sfery.
 - [sfera/gtin/usuwanie-gtin.cs](sfera/gtin/usuwanie-gtin.cs) - usuwa kod GTIN z e-Faktury
+- [sfera/faktoring/faktor-dla-terminu-platnosci.cs](sfera/faktoring/faktor-dla-terminu-platnosci.cs) - dodaje faktora do e-faktury
 - [sfera/podmiot3/podmiot3.cs](sfera/podmiot3/podmiot3.cs) - pozwala dodać dodatkowe podmioty w polach **Podmiot3** lub **PodmiotUpowazniony** e-faktury
 
 
