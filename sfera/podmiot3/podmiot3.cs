@@ -50,6 +50,7 @@ void DodajDaneBazowe(InsERT.Kontrahent oKh) {
 	string NrLokalu = (string)oKh.NrLokalu;
 	if (NrLokalu.Length>0) AdresL1 += "/"+NrLokalu;
 	string AdresL2 = (string)oKh.KodPocztowy+" "+(string)oKh.Miejscowosc;
+	string GLN=""; try { GLN=(string)oKh.GLN; } catch (Exception ex) {}
 	
 	xml.DodajElementRownorzednyZa("tns:Faktura/tns:Podmiot2", "tns:Podmiot3", "");
     if (NrEORI.Length>0) xml.DodajElementPodrzedny("tns:Faktura/tns:Podmiot3", "tns:NrEORI", NrEORI);
@@ -72,6 +73,7 @@ void DodajDaneBazowe(InsERT.Kontrahent oKh) {
 	xml.DodajElementPodrzedny("tns:Faktura/tns:Podmiot3/tns:Adres", "tns:KodKraju", KodKraju);
 	xml.DodajElementRownorzednyZa("tns:Faktura/tns:Podmiot3/tns:Adres/tns:KodKraju", "tns:AdresL1", AdresL1);
 	xml.DodajElementRownorzednyZa("tns:Faktura/tns:Podmiot3/tns:Adres/tns:AdresL1", "tns:AdresL2", AdresL2);
+	if (GLN.Length>0) xml.DodajElementRownorzednyZa("tns:Faktura/tns:Podmiot3/tns:Adres/tns:AdresL2", "tns:GLN", GLN);
 }
 
 void DodajKontoFaktora(InsERT.Kontrahent oKh, string konto) {
@@ -138,6 +140,7 @@ void DodajDaneBazowePU(InsERT.Kontrahent oKh) {
 	string NrLokalu = (string)oKh.NrLokalu;
 	if (NrLokalu.Length>0) AdresL1 += "/"+NrLokalu;
 	string AdresL2 = (string)oKh.KodPocztowy+" "+(string)oKh.Miejscowosc;
+	string GLN=""; try { GLN=(string)oKh.GLN; } catch (Exception ex) {}
 	
 	xml.DodajElementRownorzednyPrzed("tns:Faktura/tns:Fa", "tns:PodmiotUpowazniony", "");
     if (NrEORI.Length>0) xml.DodajElementPodrzedny("tns:Faktura/tns:PodmiotUpowazniony", "tns:NrEORI", NrEORI);
@@ -148,6 +151,7 @@ void DodajDaneBazowePU(InsERT.Kontrahent oKh) {
 	xml.DodajElementPodrzedny("tns:Faktura/tns:PodmiotUpowazniony/tns:Adres", "tns:KodKraju", KodKraju);
 	xml.DodajElementRownorzednyZa("tns:Faktura/tns:PodmiotUpowazniony/tns:Adres/tns:KodKraju", "tns:AdresL1", AdresL1);
 	xml.DodajElementRownorzednyZa("tns:Faktura/tns:PodmiotUpowazniony/tns:Adres/tns:AdresL1", "tns:AdresL2", AdresL2);
+	if (GLN.Length>0) xml.DodajElementRownorzednyZa("tns:Faktura/tns:PodmiotUpowazniony/tns:Adres/tns:AdresL2", "tns:GLN", GLN);
 }
 
 void DodajPodmiotUpowazniony(string symbol, int rola) {
